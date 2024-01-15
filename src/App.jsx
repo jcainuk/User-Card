@@ -1,9 +1,10 @@
 import React from "react";
 import user from "../data/user.json";
-import styles from "../styles/user.css";
+import "../styles/App.css";
+import UserCard from "./UserCard";
 
 function App() {
-  return <h1>Hello</h1>;
+  return <UserCard />;
 }
 
 export default App;
